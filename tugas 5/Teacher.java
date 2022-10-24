@@ -7,8 +7,8 @@ public class Teacher extends Person {
     private ArrayList<String> pelajaran;
     private ArrayList<Integer> nilailList;
 
-    public Teacher (String name, String address){
-        super(name, address);
+    public Teacher (String nama, String alamat){
+        super(nama, alamat);
         pelajaran = new ArrayList<>();
         nilailList = new ArrayList<>();     
     }
